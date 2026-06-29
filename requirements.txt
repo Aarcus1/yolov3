@@ -1,0 +1,12 @@
+tqdm
+metrics
+torch
+torchvision
+torchmetrics
+pycocotools
+pyyaml
+tensorboard
+numpy
+opencv-python
+albumentations
+Pillow
