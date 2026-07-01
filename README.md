@@ -68,8 +68,8 @@ pip install -r requirements.txt
 
 Download the pretrained Darknet-53 backbone:
 
-- **Config**: [yolov3.cfg](https://web.archive.org/web/20190123023210/https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg)
-- **Weights**: [yolov3.weights](https://web.archive.org/web/20190123023221/https://pjreddie.com/media/files/yolov3.weights)
+- **Config**: ./configurations/darknet.cfg
+- **Weights**: [darknet.weights](https://pjreddie.com/media/files/darknet53.conv.74)
 
 Place them at:
 ```
