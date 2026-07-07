@@ -379,7 +379,7 @@ class TestModelOutputShapes(unittest.TestCase):
             self.assertFalse(param.requires_grad,
                              "Backbone params should have requires_grad=False when frozen")
         # Detection head params must still be trainable
-        for param in self.model.detect1.parameters():
+        for param in self.model.head_large.parameters():
             self.assertTrue(param.requires_grad)
 
     def test_unfreeze_backbone_restores_gradients(self):
